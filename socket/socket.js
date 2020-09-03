@@ -9,7 +9,7 @@ module.exports = {
     socket.on("disconnect", () => console.log(`${socket.id} User disconnected.`));
   })
 };
-const PORT = process.env.PORT || 1923;
+const PORT = process.env.PORT || 8081;
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

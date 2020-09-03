@@ -1,4 +1,4 @@
-let io = require('../Socket/socket');
+let io = require('../../Socket/socket');
 const amqp = require('amqplib/callback_api');
 
 amqp.connect('amqp://localhost', function (error0, connection) {
